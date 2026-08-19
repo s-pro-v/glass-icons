@@ -4,7 +4,7 @@
  */
 (function (global) {
     'use strict';
-
+ 
     // UWAGA: Format "klucz": "wartość" jest szybszy do wyszukiwania niż tablica obiektów!
     const iconDatabase = {
         "sliders-vertical": `<svg width="48" height="48" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="">
