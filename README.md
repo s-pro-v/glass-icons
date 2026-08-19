@@ -1,5 +1,3 @@
-# glass-icons
-
 # Glass Icons
 
 Piękna, konfigurowalna biblioteka ikon z efektem szklanego morfizmu (glassmorphism), dostępna przez sieć CDN.
@@ -15,7 +13,7 @@ Wystarczy wkleić dwa poniższe linki wewnątrz tagu `<head>` i na dole `<body>`
 
 <!-- Na dole dokumentu dodaj skrypt JS -->
 <script src="[https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.js](https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.js)"></script>
-
+```
 ```css
 
 :root {
@@ -33,3 +31,4 @@ Wystarczy wkleić dwa poniższe linki wewnątrz tagu `<head>` i na dole `<body>`
     --icon-shadow-offset-x: 0px;
     --icon-shadow-offset-y: 8px;
 }
+```
