@@ -16,6 +16,8 @@ Wystarczy wkleić dwa poniższe linki wewnątrz tagu `<head>` i na dole `<body>`
 <script src="[https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.js]
 (https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.js)"></script>
 ```
+
+- Ikony są w 100% konfigurowalne za pomocą zmiennych CSS. Możesz zmienić ich styl umieszczając te zmienne w swoim głównym pliku CSS:
 ```css
 
 :root {
