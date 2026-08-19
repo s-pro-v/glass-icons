@@ -1,0 +1,31 @@
+/* Domyślne zmienne CSS dla Glass Icons */
+:root {
+    --normal-color-start: #575757;
+    --normal-color-end: #151515;
+    --glass-color-start: #e3e3e599;
+    --glass-color-end: #bbbbc099;
+    --icon-shadow: rgba(0, 0, 0, 0.25);
+    --icon-shadow-blur: 8px;
+    --icon-shadow-offset-x: 0px;
+    --icon-shadow-offset-y: 6px;
+}
+
+/* Styl bazowy ikony */
+.glass-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    /* Domyślny rozmiar, jeśli użytkownik nie ustawi go w klasie zewnętrznej */
+    min-width: 24px;
+    min-height: 24px;
+    filter: drop-shadow(var(--icon-shadow-offset-x) var(--icon-shadow-offset-y) var(--icon-shadow-blur) var(--icon-shadow));
+    transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+i[data-glass-icon] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+}
