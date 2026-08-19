@@ -39,9 +39,6 @@ i[data-icon] {
     justify-content: center;
     vertical-align: middle;
     
-    /* Wymiary (dziedziczy rozmiar czcionki rodzica, ale nie mniejszy niż 24px) */
-    width: 1em;
-    height: 1em;
     min-width: 24px;
     min-height: 24px;
     
