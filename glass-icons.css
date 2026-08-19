@@ -1,4 +1,6 @@
-/* Domyślne zmienne CSS dla Glass Icons */
+/* =========================================
+   GLASS ICONS - VARIABLES
+   ========================================= */
 :root {
     --normal-color-start: #575757;
     --normal-color-end: #151515;
@@ -10,22 +12,56 @@
     --icon-shadow-offset-y: 6px;
 }
 
-/* Styl bazowy ikony */
-.glass-icon {
-    display: inline-block;
+/* =========================================
+   GLASS ICONS - RESET & BASE STYLES
+   ========================================= */
+
+/* Ochrona przed globalnymi stylami strony dla kontenera ikony */
+.glass-icon,
+i[data-glass-icon],
+i[data-icon] {
+    /* Reset */
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: normal;
+    
+    /* Layout */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    
+    /* Wymiary (dziedziczy rozmiar czcionki rodzica, ale nie mniejszy niż 24px) */
     width: 1em;
     height: 1em;
-    vertical-align: middle;
-    /* Domyślny rozmiar, jeśli użytkownik nie ustawi go w klasie zewnętrznej */
     min-width: 24px;
     min-height: 24px;
+    
+    /* Efekty */
     filter: drop-shadow(var(--icon-shadow-offset-x) var(--icon-shadow-offset-y) var(--icon-shadow-blur) var(--icon-shadow));
     transition: filter 0.2s ease, transform 0.2s ease;
 }
 
-i[data-glass-icon] {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-style: normal;
+/* Reset i skalowanie samego pliku SVG wewnątrz */
+.glass-icon svg,
+i[data-glass-icon] svg,
+i[data-icon] svg {
+    /* Wymuszamy, by SVG zachowywało się poprawnie i wypełniało kontener */
+    box-sizing: border-box !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    pointer-events: none; /* Zapobiega przejmowaniu kliknięć przez same ścieżki SVG */
 }
