@@ -9,10 +9,12 @@ Wystarczy wkleić dwa poniższe linki wewnątrz tagu `<head>` i na dole `<body>`
 
 ```html
 <!-- W sekcji <head> dodaj style -->
-<link rel="stylesheet" href="[https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.css](https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.css)">
+<link rel="stylesheet" href="[https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.css]
+(https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.css)">
 
 <!-- Na dole dokumentu dodaj skrypt JS -->
-<script src="[https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.js](https://cdn.jsdelivr.net/gh/TWOJA_NAZWA_UZYTKOWNIKA/glass-icons@main/glass-icons.js)"></script>
+<script src="[https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.js]
+(https://cdn.jsdelivr.net/gh/s-pro-v/glass-icons@main/glass-icons.js)"></script>
 ```
 ```css
 
